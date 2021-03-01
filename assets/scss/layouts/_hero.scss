@@ -3,8 +3,9 @@ main{
     display: block;
     width: 100%;
     min-width: 320px;
-    height: 600px;
+    height: 100vh;
     background-image: url('../../../images/bg1Mobile2X.png');
+    background-size: 100% 100%;
     @include bg;
     background-blend-mode: multiply;
     border-bottom: 4px solid $just-white;
