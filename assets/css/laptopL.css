@@ -31,3 +31,12 @@ main {
 .aboutme--container__body {
   margin-left: 50px;
 }
+
+.projects {
+  display: flex;
+  justify-content: center;
+}
+
+.projects--container__cards {
+  width: 100%;
+}

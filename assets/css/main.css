@@ -82,7 +82,6 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
   background-blend-mode: multiply;
   border-bottom: 4px solid #FFFFFF;
 }
@@ -172,11 +171,10 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
 }
 
 .about {
-  background-image: url("../../../images/about.jpg");
+  background-image: url("../../../images/about2.jpg");
 }
 
 .work {
@@ -368,6 +366,156 @@ footer p {
   font-weight: 500;
   line-height: 1.8rem;
   color: #808080;
+}
+
+.projects {
+  display: inline-block;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+}
+
+.projects--container .projects--container__titles {
+  text-align: center;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  margin-top: 80px;
+}
+
+.projects--container .projects--container__titles h2 {
+  margin-bottom: 15px;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.3rem;
+  font-weight: 800;
+  letter-spacing: 4px;
+  line-height: 2.3rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.projects--container .projects--container__titles p {
+  margin-bottom: 50px;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.2rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.project--card .project--card__img img {
+  width: 240px;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.projects--container__cards {
+  display: grid;
+  height: 190px;
+  width: 80%;
+  margin: 40px auto;
+  align-items: center;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(1, auto);
+  grid-template-areas: "project--card" "project--card" "project--card" "project--card" "project--card";
+  grid-gap: 40px;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  overflow-x: scroll;
+}
+
+.projects--container__cards::-webkit-scrollbar {
+  display: none;
+}
+
+.project--card {
+  position: relative;
+  scroll-snap-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  max-width: 500px;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 20px;
+}
+
+.project--card .overlay--card {
+  position: absolute;
+  display: none;
+  width: 230px;
+  max-width: 500px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 20px;
+  z-index: 5;
+}
+
+.project--card .overlay--card a {
+  color: #FFFFFF;
+  font-size: 2.8rem;
+  line-height: 2.9rem;
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 12px);
+}
+
+.project--card:hover .overlay--card {
+  display: block;
+  transition: 0.3s ease-in-out;
+}
+
+.clients {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.5) 47%, rgba(0, 0, 0, 0.5) 100%);
+  background-blend-mode: screen;
+}
+
+.clients--container .clients--container__titles h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.3rem;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 50px;
+  color: #808080;
+}
+
+.clients--container .clients--container__titles p {
+  margin: 20px auto;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #808080;
+}
+
+.clients--container__companies {
+  width: 100%;
+  min-width: 320px;
+}
+
+.clients--container__companies {
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "companies--img" "companies--img" "companies--img" "companies--img";
+  align-items: center;
+  justify-content: center;
+  grid-gap: 30px;
+}
+
+.companies--img img {
+  width: 100px;
+  margin: 0 auto;
 }
 
 .overlay:hover {

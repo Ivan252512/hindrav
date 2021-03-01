@@ -37,7 +37,7 @@ main {
 
 .aboutme--container__body {
   width: 500px;
-  margin-left: 10px;
+  margin-left: 40px;
 }
 
 .aboutme--container__body p {
@@ -56,4 +56,18 @@ main {
 .skills--cards__details {
   width: 300px;
   margin: 10px 10px;
+}
+
+.projects--container__cards {
+  width: 90%;
+}
+
+.clients--container__companies {
+  width: auto;
+  margin-top: 30px;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(1, auto);
+  grid-template-areas: "companies--img" "companies--img" "companies--img" "companies--img";
+  align-items: center;
+  justify-content: space-evenly;
 }
