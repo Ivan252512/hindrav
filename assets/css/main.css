@@ -82,6 +82,7 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: 100% 100%;
   background-blend-mode: multiply;
   border-bottom: 4px solid #FFFFFF;
 }
@@ -171,6 +172,7 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 .about {
