@@ -1,0 +1,76 @@
+// Principal container
+.everything--container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "about"
+                         "work"
+                         "camera"
+                         "cofounder";
+
+}
+
+// Overlay
+
+.overlay{
+    @include overlay;
+    height: 100%;
+}
+
+// Sections
+.about,
+.work,
+.camera,
+.cofounder{
+    width: 100%;
+    min-width: 320px;
+    height: 100vh;
+    @include bg;
+}
+
+// Backgrounds
+
+.about{
+    background-image: url('../../../images/about.jpg');
+}
+
+.work{
+    background-image: url('../../../images/work2.jpg');
+}
+
+.camera{
+    background-image: url('../../../images/camera.jpg');
+}
+
+.cofounder{
+    background-image: url('../../../images/cofounder.jpg');
+}
+
+// Containers
+
+.about--container,
+.work--container,
+.camera--container,
+.cofounder--container{
+    display: grid;
+    width: 100%;
+    min-width: 288px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 4px solid $just-white;
+}
+
+.about--container a,
+.work--container a,
+.camera--container a,
+.cofounder--container a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+    text-align: center;
+    color: $just-white;
+}

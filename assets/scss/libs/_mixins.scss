@@ -1,0 +1,10 @@
+@mixin bg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@mixin overlay{
+    background-color: rgba(0,0,0,0.4);
+    z-index: 10 !important;
+}

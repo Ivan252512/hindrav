@@ -1,0 +1,77 @@
+main{
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 320px;
+    height: 600px;
+    background-image: url('../../../images/bg1Mobile2X.png');
+    @include bg;
+    background-blend-mode: multiply;
+    border-bottom: 4px solid $just-white;
+}
+
+.hero--container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    min-width: 320px;
+    height: 100%;
+    padding: 0 10px;
+    background-color: rgba(0,0,0,0.2);
+    align-items: center;
+    text-align: center;
+    color: $just-white;
+}
+
+// Description
+
+.hero--container__desc{
+    position: relative;
+}
+
+.hero--container__desc h2{
+    font-weight: 100;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.hero--container__desc h1{
+    margin:3px auto;
+    font-weight: 900;
+    font-size: 2.2rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+}
+
+.hero--container__desc p{
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+// Media
+
+.hero--container__media{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: calc(50% + 60px);
+}
+
+.hero--container__media{
+    display: grid;
+    grid-template-columns: repeat(3, 15px);
+    grid-template-rows: repeat(1, auto);
+    grid-template-areas: "media-icon media-icon media-icon";
+    grid-gap: 30px;
+    justify-content: center;
+}
+
+.media-icon{
+    color: $just-white;
+    font-size: 2.2rem;
+}

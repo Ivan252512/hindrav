@@ -1,0 +1,75 @@
+.aboutme--skills{
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: $fadetoblack;
+    color: $just-white;
+}
+
+.aboutme--skills__titles{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.aboutme--skills__titles h2{
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 2.2rem;
+    text-transform: uppercase;
+}
+
+.aboutme--skills__titles p{
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: $grey;
+}
+
+.skills--cards__container{
+    width: 100%;
+}
+
+.skills--cards__details{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    min-height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: $warm-black-one;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.icon-card{
+    margin-bottom: 15px;
+    font-size: 2.4rem;
+    color: rgb(255, 255, 255);
+}
+
+.skill--card__title{
+    margin-bottom: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    text-transform: uppercase;
+}
+
+.skill--card__description{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: $grey;
+}
+
+
+

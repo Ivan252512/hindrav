@@ -1,0 +1,33 @@
+html {
+  font-size: 70%;
+}
+
+main {
+  background-image: url("../../../images/bg1Desk4X.png");
+}
+
+.everything--container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(1, auto);
+  grid-template-areas: "about" "work" "camera" "cofounder";
+}
+
+.about,
+.work,
+.camera,
+.cofounder {
+  height: 95vh;
+}
+
+.work {
+  background-image: url("../../../images/work2.jpg");
+}
+
+.cofounder {
+  background-image: url("../../../images/cofounder4.jpg");
+}
+
+.aboutme--container__body {
+  margin-left: 50px;
+}

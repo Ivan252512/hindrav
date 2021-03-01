@@ -1,0 +1,59 @@
+main {
+  height: 100vh;
+}
+
+.about--container,
+.work--container,
+.camera--container,
+.cofounder--container {
+  border-bottom: none;
+}
+
+.everything--container {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas: "about" "work" "camera" "cofounder";
+}
+
+.about {
+  background-image: url("../../../images/about2.jpg");
+}
+
+.work {
+  background-image: url("../../../images/work2.jpg");
+}
+
+.cofounder {
+  background-image: url("../../../images/cofounder2.jpg");
+}
+
+.aboutme--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutme--container__body {
+  width: 500px;
+  margin-left: 10px;
+}
+
+.aboutme--container__body p {
+  width: 55vw;
+  min-width: 320px;
+  max-width: 600px;
+}
+
+.skills--cards__container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.skills--cards__details {
+  width: 300px;
+  margin: 10px 10px;
+}
