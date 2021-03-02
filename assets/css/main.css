@@ -81,8 +81,8 @@ main {
   background-size: 100% 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed center;
   background-position: center center;
+  background-attachment: center;
   background-blend-mode: multiply;
   border-bottom: 4px solid #FFFFFF;
 }
@@ -171,8 +171,8 @@ main {
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed center;
   background-position: center center;
+  background-attachment: center;
 }
 
 .about {

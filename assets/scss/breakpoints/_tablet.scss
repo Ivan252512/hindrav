@@ -1,5 +1,5 @@
 main{
-    height: 100vh;
+    background-attachment: fixed;
 }
 
 .about--container,
@@ -16,6 +16,13 @@ main{
     grid-template-areas: "about" "work"
                          "camera" "cofounder";
 
+}
+
+.about,
+.work,
+.camera,
+.cofounder{
+    background-attachment: fixed;
 }
 
 .about{

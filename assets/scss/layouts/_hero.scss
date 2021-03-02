@@ -7,6 +7,7 @@ main{
     background-image: url('../../../images/bg1Mobile2X.png');
     background-size: 100% 100%;
     @include bg;
+    background-attachment: center;
     background-blend-mode: multiply;
     border-bottom: 4px solid $just-white;
 }
