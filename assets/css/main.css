@@ -111,12 +111,55 @@ table {
   font-size: 1.7rem;
 }
 
+#menu .menu--container {
+  position: fixed;
+  z-index: 1000;
+  margin-top: 20px;
+  padding-left: 15px;
+}
+
+#burger {
+  font-size: 2.1rem;
+  color: #808080;
+}
+
+#showUp {
+  display: none;
+  position: fixed;
+  width: 170px;
+  min-width: 170px;
+  max-width: 220px;
+  padding-top: 70px;
+  height: 100vh;
+  background: linear-gradient(to right, #252525 0%, black 100%);
+  z-index: 999;
+}
+
+#showUp .showUp--container .showUp--container__items {
+  margin: 0 10px 25px 0;
+  padding: 15px;
+  border-bottom: 1px solid #FFFFFF;
+  border-radius: 10px;
+}
+
+#showUp .showUp--container .showUp--container__items a {
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #808080;
+}
+
+.rotateActive {
+  transform: rotate(90deg);
+}
+
 main {
   position: relative;
   display: block;
   width: 100%;
   min-width: 320px;
-  height: 100vh;
+  height: 90vh;
   background-image: url("../../../images/bg1Mobile2X.png");
   background-size: 100% 100%;
   background-size: cover;
@@ -567,6 +610,22 @@ footer p {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@keyframes offNav {
+  100% {
+    transform: translate(-100%);
+  }
+  0% {
+    transform: translate(0%);
+  }
+}
+@keyframes onNav {
+  0% {
+    transform: translatex(-100%);
+  }
+  100% {
+    transform: translatex(0%);
   }
 }
 .overlay:hover {

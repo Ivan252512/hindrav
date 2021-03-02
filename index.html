@@ -1,88 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/all.min.css" />
-    <!-- Phone -->
-    <link rel="stylesheet" href="assets/css/phone.css" media="(min-width: 425px)">
-    <!-- Tablet -->
-    <link rel="stylesheet" href="assets/css/tablet.css" media="(min-width: 768px)">
-    <!-- Laptop L-->
-    <link rel="stylesheet" href="assets/css/laptop.css" media="(min-width: 1440px)">
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet" />
-    <title>Hindra Estrada</title>
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/all.min.css" />
+        <!-- Phone -->
+        <link rel="stylesheet" href="assets/css/phone.css" media="(min-width: 425px)">
+        <!-- Tablet -->
+        <link rel="stylesheet" href="assets/css/tablet.css" media="(min-width: 768px)">
+        <!-- Laptop L-->
+        <link rel="stylesheet" href="assets/css/laptop.css" media="(min-width: 1440px)">
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+        <title>Hindra Estrada</title>
+    </head>
 
-<body>
-    <!-- Loader -->
-    <div id="loadcontainer">
-        <div id="load"></div>
-        <h2 id="loadDesc">HINDRAV.COM</h2>
-    </div>
-    <!-- Hero -->
-    <main>
-        <div class="hero--container">
-            <div class="hero--container__desc">
-                <h2>Hindra Estrada</h2>
-                <h1>Software Developer</h1>
-                <p>Engineer</p>
-            </div>
+    <body>
+        <!-- Loader -->
+        <div id="loadcontainer">
+            <div id="load"></div>
+            <h2 id="loadDesc">HINDRAV.COM</h2>
         </div>
-        <div class="hero--container__media">
-            <div class="container--media__icon">
-                <a href="https://twitter.com/hindrav_" class="media-icon"><i class="fab fa-twitter"></i></a>
-            </div>
-            <div class="container--media__icon">
-                <a href="https://walink.co/7ed587" class="media-icon"><i class="fab fa-whatsapp"></i></a>
-            </div>
-            <div class="container--media__icon">
-                <a href="https://www.linkedin.com/in/hindrav/" class="media-icon"><i class="fab fa-linkedin"></i></a>
-            </div>
-        </div>
-    </main>
-    <!-- Everything -->
-    <section>
-        <div class="everything--container">
-            <div class="about">
-                <div class="about--container overlay">
-                    <a href="about.html" class="">About Me</a>
+        <!-- Navbar -->
+        <nav id="menu">
+            <div class="menu--container">
+                <div class="togg-icon navActive" onclick='toggMenu()'>
+                    <i class="fa fa-sliders-h" id="burger"></i>
                 </div>
             </div>
-            <div class="work">
-                <div class="work--container overlay">
-                    <a href="work.html" class="">My Work</a>
+            <div class="showUp" id="showUp">
+                <div class="showUp--container">
+                    <div class="showUp--container__items">
+                        <a href="about.html" class="nv-link">About</a>
+                    </div>
+                    <div class="showUp--container__items">
+                        <a href="work.html" class="nv-link">Work</a>
+                    </div>
+                    <div class="showUp--container__items">
+                        <a href="https://500px.com/p/hindrav?view=photos" class="nv-link">Photo Grid</a>
+                    </div>
+                    <div class="showUp--container__items">
+                        <a href="#" class="nv-link">Collaborations</a>
+                    </div>
                 </div>
             </div>
-            <div class="camera">
-                <div class="camera--container overlay">
-                    <a href="camera.html" class="">Grid</a>
+        </nav>
+        <!-- Hero -->
+        <main>
+            <div class="hero--container">
+                <div class="hero--container__desc">
+                    <h2>Hindra Estrada</h2>
+                    <h1>Software Developer</h1>
+                    <p>Engineer</p>
                 </div>
             </div>
-            <div class="cofounder">
-                <div class="cofounder--container overlay">
-                    <a href="collaborations.html" class="">Collaborations</a>
+            <div class="hero--container__media">
+                <div class="container--media__icon">
+                    <a href="https://twitter.com/hindrav_" class="media-icon"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="container--media__icon">
+                    <a href="https://walink.co/7ed587" class="media-icon"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <div class="container--media__icon">
+                    <a href="https://www.linkedin.com/in/hindrav/" class="media-icon"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Footer -->
-    <footer id="footer">
-        <p class="footer--container_small">&copy; Hindrav - All rights reserved</p>
-    </footer>
-    <!-- Scripts -->
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/all.min.js"></script>
-</body>
+        </main>
+        <!-- Everything -->
+        <section>
+            <div class="everything--container">
+                <div class="about">
+                    <div class="about--container overlay">
+                        <a href="about.html" class="">About Me</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <div class="work--container overlay">
+                        <a href="work.html" class="">My Work</a>
+                    </div>
+                </div>
+                <div class="camera">
+                    <div class="camera--container overlay">
+                        <a href="https://500px.com/p/hindrav?view=photos" class="">Grid</a>
+                    </div>
+                </div>
+                <div class="cofounder">
+                    <div class="cofounder--container overlay">
+                        <a href="collaborations.html" class="">Collaborations</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer id="footer">
+            <p class="footer--container_small">&copy; Hindrav - All rights reserved</p>
+        </footer>
+        <!-- Scripts -->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/all.min.js"></script>
+    </body>
 
 </html>
