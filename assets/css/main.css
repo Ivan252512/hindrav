@@ -120,15 +120,15 @@ table {
 
 #burger {
   font-size: 2.1rem;
-  color: #808080;
+  color: #FFFFFF;
 }
 
 #showUp {
   display: none;
   position: fixed;
-  width: 170px;
-  min-width: 170px;
-  max-width: 220px;
+  width: 30vw;
+  min-width: 200px;
+  max-width: 300px;
   padding-top: 70px;
   height: 100vh;
   background: linear-gradient(to right, #252525 0%, black 100%);
@@ -143,7 +143,7 @@ table {
 }
 
 #showUp .showUp--container .showUp--container__items a {
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   letter-spacing: 3px;
   text-transform: uppercase;
   text-decoration: none;
