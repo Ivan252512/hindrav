@@ -1,10 +1,7 @@
-const button1 = document.getElementById('nbut');
-const button2 = document.getElementById('pbut');
+// loader
+window.onload = () =>{
+  let container = document.getElementById('loadcontainer');
 
-button1.onclick = function () {
-  document.getElementById('slider').scrollLeft += 190;
-};
-
-button2.onclick = function () {
-    document.getElementById('slider').scrollLeft -= 190;
-};
+  container.style.visibility = 'hidden';
+  container.style.opacity = '0';
+}

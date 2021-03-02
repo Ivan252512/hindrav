@@ -1,0 +1,40 @@
+#loadcontainer {
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    transition: all 1s ease;
+    z-index: 10000;
+  }
+
+  #load {
+    border: 15px solid #ccc;
+    border-top-color: #F4266A;
+    border-top-style: groove;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    animation: turn 2s linear infinite;
+  }
+
+#loadDesc{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: calc(50% + 30px);
+    margin: 0 auto;
+    font-family: 'Oswald',sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+
+}
