@@ -53,6 +53,7 @@
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
     overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .projects--container__cards::-webkit-scrollbar{

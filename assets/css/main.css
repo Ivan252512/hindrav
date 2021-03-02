@@ -81,7 +81,8 @@ main {
   background-size: 100% 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed center;
+  background-position: center center;
   background-blend-mode: multiply;
   border-bottom: 4px solid #FFFFFF;
 }
@@ -170,7 +171,8 @@ main {
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed center;
+  background-position: center center;
 }
 
 .about {
@@ -424,6 +426,7 @@ footer p {
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
   overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .projects--container__cards::-webkit-scrollbar {
