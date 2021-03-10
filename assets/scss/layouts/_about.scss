@@ -8,6 +8,9 @@
     text-align: center;
     padding: 10px 30px;
     background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+    // background-image: linear-gradient(to right, #ec7971 0%, #cf6a61 0%, #c46a60 21%, #c57269 52%, #cf556c 78%, #b12a5b 100%);
+    // background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+    // background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
 }
 
 .aboutme .aboutme--container__header img{
@@ -22,7 +25,7 @@
     font-size: 1.8rem;
     font-weight: 800;
     color: $just-white;
-    margin: 18px auto 12px auto;
+    margin: 30px auto 12px auto;
 }
 
 .aboutme .aboutme--container__header a{
@@ -46,6 +49,7 @@
     font-weight: 600;
     color: $just-white;
     margin: 25px auto 10px auto;
+    text-transform: uppercase;
 }
 
 .aboutme--container__body p{
@@ -53,9 +57,11 @@
     width: 80vw;
     margin: 0 auto;
     font-size: 1.2rem;
-    font-weight: 100;
+    font-weight: 300;
     padding: 20px 20px;
-    background-image: linear-gradient(45deg, #643979 0%, #922922 100%);
+    // background-image: linear-gradient(to right, #ec7971 0%, #cf6a61 0%, #c46a60 21%, #c57269 52%, #cf556c 78%, #b12a5b 100%);
+    // background-image: linear-gradient(45deg, #643979 0%, #922922 100%);
     color: $just-white;
-    border-radius: 10px;
+    border-top: 1px solid $just-white;
+    border-radius: 30px;
 }

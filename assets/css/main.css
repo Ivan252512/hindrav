@@ -301,23 +301,6 @@ main {
   color: #FFFFFF;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  bottom: 0;
-  height: 100px;
-  background: linear-gradient(to right, #252525 0%, black 100%);
-}
-
-footer p {
-  color: #808080;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
 .aboutme {
   display: flex;
   width: 100%;
@@ -342,7 +325,7 @@ footer p {
   font-size: 1.8rem;
   font-weight: 800;
   color: #FFFFFF;
-  margin: 18px auto 12px auto;
+  margin: 30px auto 12px auto;
 }
 
 .aboutme .aboutme--container__header a {
@@ -366,6 +349,7 @@ footer p {
   font-weight: 600;
   color: #FFFFFF;
   margin: 25px auto 10px auto;
+  text-transform: uppercase;
 }
 
 .aboutme--container__body p {
@@ -373,11 +357,11 @@ footer p {
   width: 80vw;
   margin: 0 auto;
   font-size: 1.2rem;
-  font-weight: 100;
+  font-weight: 300;
   padding: 20px 20px;
-  background-image: linear-gradient(45deg, #643979 0%, #922922 100%);
   color: #FFFFFF;
-  border-radius: 10px;
+  border-top: 1px solid #FFFFFF;
+  border-radius: 30px;
 }
 
 .aboutme--skills {
@@ -458,7 +442,7 @@ footer p {
   width: 100%;
   min-width: 320px;
   height: auto;
-  background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+  background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
 }
 
 .projects--container .projects--container__titles {
@@ -489,6 +473,10 @@ footer p {
   text-transform: uppercase;
 }
 
+.project--card {
+  margin-left: 40px;
+}
+
 .project--card .project--card__img img {
   width: 240px;
   margin: 0 auto;
@@ -505,7 +493,7 @@ footer p {
   grid-template-columns: repeat(5, auto);
   grid-template-rows: repeat(1, auto);
   grid-template-areas: "project--card" "project--card" "project--card" "project--card" "project--card";
-  grid-gap: 40px;
+  justify-content: start;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
   overflow-x: scroll;
@@ -560,7 +548,7 @@ footer p {
   width: 100%;
   min-width: 320px;
   height: auto;
-  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.5) 47%, rgba(0, 0, 0, 0.5) 100%);
+  background: linear-gradient(to right, #252525 0%, black 100%);
   background-blend-mode: screen;
 }
 
@@ -570,7 +558,7 @@ footer p {
   font-weight: 600;
   text-align: center;
   padding-top: 50px;
-  color: #808080;
+  color: #FFFFFF;
 }
 
 .clients--container .clients--container__titles p {
@@ -588,20 +576,38 @@ footer p {
   min-width: 320px;
 }
 
+.clients--container {
+  width: 100%;
+}
+
 .clients--container__companies {
   display: grid;
+  width: 100%;
   margin-top: 30px;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(3, auto);
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(1, auto);
   grid-template-areas: "companies--img" "companies--img" "companies--img" "companies--img";
   align-items: center;
-  justify-content: center;
-  grid-gap: 30px;
+  justify-content: start;
+  overflow-x: scroll;
+  padding-bottom: 15px;
+}
+
+.clients--container__companies::-webkit-scrollbar {
+  background: none;
+  height: 2px;
+}
+
+.clients--container__companies::-webkit-scrollbar-thumb {
+  background: black;
+  height: 2px;
+  background: #808080;
 }
 
 .companies--img img {
   width: 100px;
   margin: 0 auto;
+  padding: 15px;
 }
 
 @keyframes turn {
@@ -631,4 +637,23 @@ footer p {
 .overlay:hover {
   background-color: rgba(0, 0, 0, 0);
   transition: 0.3s ease-in-out;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  bottom: 0;
+  height: 100px;
+  background: linear-gradient(to right, #252525 0%, black 100%);
+}
+
+footer p {
+  align-self: center;
+  text-align: center;
+  color: #808080;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }

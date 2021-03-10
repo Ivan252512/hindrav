@@ -1,3 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+html {
+  font-size: 68.5%;
+  font-family: "DM Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#loadcontainer {
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  transition: all 1s ease;
+  z-index: 10000;
+}
+
+#load {
+  border: 15px solid #ccc;
+  border-top-color: #F4266A;
+  border-top-style: groove;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  animation: turn 2s linear infinite;
+}
+
+#loadDesc {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: calc(50% + 30px);
+  margin: 0 auto;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: white;
+}
+
+.button-next {
+  border: 1px solid white;
+  border-radius: 100%;
+  padding: 7px 7px;
+  color: #FFFFFF;
+  font-size: 1.7rem;
+}
+
+#menu .menu--container {
+  position: fixed;
+  z-index: 1000;
+  margin-top: 20px;
+  padding-left: 15px;
+}
+
+#burger {
+  font-size: 2.1rem;
+  color: #FFFFFF;
+}
+
+#showUp {
+  display: none;
+  position: fixed;
+  width: 30vw;
+  min-width: 200px;
+  max-width: 300px;
+  padding-top: 70px;
+  height: 100vh;
+  background: linear-gradient(to right, #252525 0%, black 100%);
+  z-index: 999;
+}
+
+#showUp .showUp--container .showUp--container__items {
+  margin: 0 10px 25px 0;
+  padding: 15px;
+  border-bottom: 1px solid #FFFFFF;
+  border-radius: 10px;
+}
+
+#showUp .showUp--container .showUp--container__items a {
+  font-size: 1.1rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #808080;
+}
+
+.rotateActive {
+  transform: rotate(90deg);
+}
+
 html {
   font-size: 70%;
 }
@@ -39,4 +195,23 @@ main {
 
 .projects--container__cards {
   width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  bottom: 0;
+  height: 100px;
+  background: linear-gradient(to right, #252525 0%, black 100%);
+}
+
+footer p {
+  align-self: center;
+  text-align: center;
+  color: #808080;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }

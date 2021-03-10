@@ -6,8 +6,26 @@
 @import "components/navbar";
 @import "layouts/hero";
 @import "layouts/everything";
-@import "layouts/footer";
 @import "layouts/about";
 @import "layouts/skills";
 @import "layouts/work";
 @import "base/animations";
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 0;
+    height: 100px;
+    background: $warm-black;
+}
+
+footer p{
+    align-self: center;
+    text-align: center;
+    color: $grey;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

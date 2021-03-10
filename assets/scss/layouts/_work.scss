@@ -5,7 +5,11 @@
     width: 100%;
     min-width: 320px;
     height: auto;
-    background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    // background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    // background-image: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%);
+    // background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    // background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
 }
 
 .projects--container .projects--container__titles {
@@ -33,6 +37,11 @@
     color: $just-white;
     text-transform: uppercase;
 }
+
+.project--card{
+    margin-left: 40px;
+}
+
 .project--card .project--card__img img {
     width: 240px;
     margin: 0 auto;
@@ -49,7 +58,8 @@
     grid-template-columns: repeat(5, auto);
     grid-template-rows: repeat(1, auto);
     grid-template-areas: "project--card" "project--card" "project--card" "project--card" "project--card";
-    grid-gap: 40px;
+    // grid-gap: 40px;
+    justify-content: start;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
     overflow-x: scroll;
@@ -103,7 +113,8 @@
     width: 100%;
     min-width: 320px;
     height: auto;
-    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+    background: $warm-black;
+    // background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
     background-blend-mode: screen;
 }
 
@@ -113,7 +124,7 @@
     font-weight: 600;
     text-align: center;
     padding-top: 50px;
-    color: $grey;
+    color: $just-white;
 }
 
 .clients--container .clients--container__titles p{
@@ -131,20 +142,36 @@
     min-width: 320px;
 }
 
+.clients--container{
+    width: 100%;
+}
+
 .clients--container__companies{
     display: grid;
+    width: 100%;
     margin-top: 30px;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(3, auto);
-    grid-template-areas: "companies--img" "companies--img"
-                         "companies--img" "companies--img";
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(1, auto);
+    grid-template-areas: "companies--img" "companies--img" "companies--img" "companies--img";
     align-items: center;
-    justify-content: center;
-    grid-gap: 30px;
+    justify-content: start;
+    overflow-x: scroll;
+    padding-bottom: 15px;
+}
 
+.clients--container__companies::-webkit-scrollbar{
+    background: none;
+    height: 2px;
+}
+
+.clients--container__companies::-webkit-scrollbar-thumb{
+    background: black;
+    height: 2px;
+    background: $grey;
 }
 
 .companies--img img{
     width: 100px;
     margin: 0 auto;
+    padding: 15px;
 }
