@@ -1,30 +1,21 @@
-I am a results oriented frontend architect currently working in the finance industry. I seek to keep myself in constant growth and multidisciplinary training.
+#Hi! 👋🏼 i'm Hindra.
 
-I design strategies for specific business needs, I look for mathematical solutions to solve problems.
+#About me
 
-💻 I develop software that perfectly adapts to your business needs.
+I am a results oriented software developer currently working in the finance industry. I seek to keep myself in constant growth and multidisciplinary training.
+I love to design strategies for specific business needs and look for mathematical solutions to solve problems.
 
-🖌 Systems design, corporate presentations, professional software and process documentation.
+🔹 I develop software that perfectly adapts to your business needs.
+🔹 I'm always looking for a way to automate processes, able to lead.
+🔹 One of the most liked cores by myself are analyzing data, normalizing, structuring and debugging huge databases -> focusing on good practices, getting specific information and representing it visually.
 
-✅ I automate processes, I am able to generate strategic business solutions.
+#Hobbies
 
-⚙ I love analyzing data, normalizing, structuring and debugging huge databases, focusing on good practices, getting specific information and representing it visually.
+♦ Systems design | corporate presentations | Documentation.
+♦ Powerlifting.
+♦ Read about (math, medicine, productivity, tech, others)
 
-ABOUT ME
-
-I am a person of strong character, determined, capable of leading, I am constantly learning.
-
-🖤 Passionate about methodologies, agile frameworks, digital transformation and design thinking.
-
-Animal lover, powerlifting, audiovisual production and productivity books - psychology - medicine.
-
-MY STRENGTHS
-
-💪🏻 Personal security, emotional intelligence, effective communication with simple language, always adapted to the profile of each person, I like to be a speaker and give conferences.
-
-🙏🏻 Optimism, for me ATTITUDE is the most important thing a person can wear.
-
-Contact:
-📲 +52 55 6941 8799
-📩 hindrave@gmail.com
-🌐 hindrav.com <- Portfolio
+# Get in a touch:
+🔸 WhatsApp: https://walink.co/015897
+🔸 Portfolio: https://hindrav.com/
+🔸 Twitter: https://twitter.com/hindrav_
