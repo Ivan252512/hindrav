@@ -1,5 +1,7 @@
 # Hi! 👋🏼 i'm Hindra.
 
+![banner](https://media-exp1.licdn.com/dms/image/C4E16AQHkaYEmFN9QJg/profile-displaybackgroundimage-shrink_350_1400/0/1622849507761?e=1628726400&v=beta&t=7TS-Brz5WYKrUkGsYsC9W6pTluqUF2WqyM0WpUY0kaU)
+
 ## About me
 
 I am a results oriented software developer currently working in the finance industry. I seek to keep myself in constant growth and multidisciplinary training.
