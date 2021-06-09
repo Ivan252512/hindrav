@@ -27,4 +27,4 @@ I love to design strategies for specific business needs and look for mathematica
 
 🔸 Portfolio: https://hindrav.com/
 
-🔸 Twitter: https://twitter.com/hindrav_
+🔸 Twitter: https://twitter.com/hindrav_/
