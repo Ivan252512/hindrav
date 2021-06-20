@@ -1,0 +1,17 @@
+{
+  "name": "hindrav-new",
+  "version": "1.2.0",
+  "description": "Portfolio",
+  "main": "assets/js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portfolio",
+    "software",
+    "developer",
+    "engineer"
+  ],
+  "author": "Hindra Estrada <hindrave@gmail.com>",
+  "license": "MIT"
+}
