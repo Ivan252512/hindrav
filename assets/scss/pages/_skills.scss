@@ -1,0 +1,94 @@
+.p-skills{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+.p-skills--container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.a-skills__text{
+    @include awesome-text;
+}
+.t-skills--index{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.o-skills--index__line{
+    @include decorative-line;
+    background: linear-gradient($thirdNumber, $fourthNumber);
+}
+.o-skills--index__circle span{
+    @include decorative-circle;
+    margin-bottom: $spaceBack;
+    background: linear-gradient(90deg, $startCircleFive, $startCircleSix);
+}
+.o-skills--index__title{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.o-skills--index__title span{
+    @include index-titles;
+    width: 100%;
+    background-image: linear-gradient(90deg, $startCircleFive, $startCircleSix);
+}
+.t-skills--information{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.o-skills--information-header{
+    width: 100%;
+    height: 100%;
+}
+.o-skills--information-header h2{
+    @include info-titles;
+    font-size: 2.5rem;
+}
+.t-skills--information-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.t-skills--information-body,
+.o-skills--information-body__text{
+    width: 100%;
+    height: 100%;
+}
+.o-skills--information-body__text{
+    padding: $spaceGap 0;
+    margin: $spaceBack 0;
+}
+.o-skills--information-body__text p{
+    @include info-text;
+    margin-bottom: $spaceGap;
+    transform:translateX(-7px);
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    text-align: center;
+}
+.o-skills--information-body__text ul{
+    padding: 0;
+}
+.o-skills--information-body__text ul li{
+    text-align: center;
+}
+.o-skills--information-body__text{
+    strong{
+        span{
+            margin-right: $spaceGap;
+        }
+    }
+}

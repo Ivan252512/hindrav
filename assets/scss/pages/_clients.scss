@@ -1,14 +1,38 @@
 .p-clients{
     width: 100%;
     height: 100%;
-    padding: 50px;
+    padding: 50px 0;
 }
 .p-clients--container{
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 .a-clients__text{
     @include awesome-text;
 }
+.o-clients--slider,
+.m-clients--slider-track{
+    width: 100%;
+    height: 100%;
+}
+.m-clients--slider-track{
+    margin-top: $spaceBack;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.a-clients--slider-track__slide img{
+    margin: 20px 0;
+    padding: 10px;
+    width: 210px;
+    filter: brightness(10%) contrast(40%) saturate(50%);
+    &:hover{
+        filter: none;
+        transition: 0.3s;
+    }
+}
+

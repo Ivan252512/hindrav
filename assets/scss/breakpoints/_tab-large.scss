@@ -1,42 +1,75 @@
-@media(min-width: $tab-large){
-    .o-hero--profile-picture,
-    .o-hero--description,
-    .t-social-media,
-    .t-next{
+@media(min-width: $tab-large) {
+    .o-hero--profile-picture, .o-hero--description, .t-social-media, .t-next {
         width: 700px;
     }
-    .o-hero--description h2{
+    .o-hero--description h2 {
         font-size: 2rem;
         line-height: 2.6rem;
     }
-    .o-hero--description span{
+    .o-hero--description span {
         font-size: 2.1rem;
         line-height: 2.6rem;
     }
-    .a-t-next__link{
+    .a-t-next__link {
         font-size: 2rem;
     }
-    .a-social-media__link{
+    .a-social-media__link {
         font-size: 2.2rem;
     }
-    .t-about--information-body{
+    .t-about--information-body {
         margin-top: $spaceBack;
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
-    .o-about--information-body__text{
+    .o-about--information-body__text {
         width: 45%;
         padding: 0 5%;
     }
-    .t-projects--information-footer__cards-container{
+    .t-projects--information-footer__cards-container {
         flex-direction: row;
     }
-    .o-information-foter__card{
-        .m-overlay{
-            img{
+    .o-information-foter__card {
+        .m-overlay {
+            img {
                 width: 300px;
             }
         }
+    }
+    .slide-track {
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+        animation-name: none !important;
+        border: 1px solid red;
+    }
+    .slide {
+        margin: 0 auto;
+    }
+    .hide-brand {
+        position: absolute;
+        top: 0;
+        display: none;
+        z-index: -999;
+    }
+    .m-clients--slider-track {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .a-clients--slider-track__slide img {
+        margin: 0 5px;
+        padding: 10px;
+        width: 200px;
+    }
+    .p-skills{
+        padding: 50px 110px;
+    }
+    .o-skills--information-body__text {
+        padding: 10px 40px;
+        width: 25%;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
     }
 }

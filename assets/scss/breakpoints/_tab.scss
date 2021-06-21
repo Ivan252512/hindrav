@@ -1,22 +1,41 @@
-@media(min-width: $tab){
-    .o-hero--profile-picture,
-    .o-hero--description,
-    .t-social-media,
-    .t-next{
+@media(min-width: $tab) {
+    .o-hero--profile-picture, .o-hero--description, .t-social-media, .t-next {
         width: 500px;
     }
-    .o-hero--description h2{
+    .o-hero--description h2 {
         font-size: 1.8rem;
         line-height: 2.5rem;
     }
-    .o-hero--description span{
+    .o-hero--description span {
         font-size: 1.9rem;
         line-height: 2.5rem;
     }
-    .a-t-next__link{
+    .a-t-next__link {
         font-size: 1.9rem;
     }
-    .a-social-media__link{
+    .a-social-media__link {
         font-size: 2rem;
+    }
+    .t-skills--information-body {
+        margin-top: $spaceBack;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .o-skills--information-body__text {
+        padding: 10px 40px;
+        width: 40%;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+    }
+    .o-skills--information-body__text p {
+        text-align: left;
+        margin-bottom: $spaceGap;
+    }
+    .o-skills--information-body__text ul{
+        padding-left: $spaceBack;
+    }
+    .o-skills--information-body__text ul li {
+        text-align: left;
     }
 }
