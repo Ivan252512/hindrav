@@ -1,0 +1,123 @@
+
+// Main
+
+.p-hero{
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    background: none;
+}
+.p-hero--container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+// Profile picture
+
+.o-hero--profile-picture{
+    padding: 20px;
+    width: 290px;
+    min-width: 290px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.o-hero--profile-picture img{
+    margin-bottom: 5px;
+    width: 200px;
+    border: 10px solid white;
+    border-radius: 100%;
+    z-index: 900;
+}
+
+// Description
+
+.o-hero--description{
+    width: 290px;
+    min-width: 290px;
+    height: fit-content;
+    text-align: center;
+}
+.o-hero--description h2{
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 901;
+    color: white;
+}
+.o-hero--description span{
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 900;
+    line-height: 2rem;
+    word-wrap: wrap;
+    text-transform: uppercase;
+    color: white;
+    z-index: 902;
+}
+
+// Social media
+
+.t-social-media{
+    width: 290px;
+    min-width: 290px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 904;
+    .a-social-media__link{
+        padding: 10px;
+        font-size: 1.5rem;
+        color: white;
+    }
+}
+.t-next{
+    margin-top: 30px;
+    width: 290px;
+    min-width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 905;
+    .a-t-next__link{
+        font-size: 1.3rem;
+        font-weight: 900;
+        color: white;
+    }
+}
+
+.whatsapp:hover{
+    background: #25d366;
+    transition: 0.3s;
+}
+.instagram:hover{
+
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    transition: 0.3s;
+}
+.twitter:hover{
+    background: #1da1f2;
+    transition: 0.3s;
+}
+.linkedin:hover{
+    background: #0077b5;
+    transition: 0.3s;
+}
+.github:hover{
+    background: #333;
+    transition: 0.3s;
+}
+.fivehundredpixels:hover{
+    background: #ff4c4c;
+    transition: 0.3;
+}

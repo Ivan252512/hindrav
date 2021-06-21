@@ -1,0 +1,96 @@
+.p-projects{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+.p-projects--container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.a-projects__text{
+    @include awesome-text;
+}
+.t-projects--index{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.o-projects--index__line{
+    @include decorative-line;
+    background: linear-gradient(#fff, $secondNumber);
+}
+.o-projects--index__circle span{
+    @include decorative-circle;
+    margin-bottom: $spaceBack;
+    background: linear-gradient(90deg, $startCircleThree, $startCircleFour);
+}
+.o-projects--index__title{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.o-projects--index__title span{
+    @include index-titles;
+    width: 100%;
+    background-image: linear-gradient(90deg, $startCircleThree, $startCircleFour);
+}
+.t-projects--information{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.o-projects--information-header{
+    width: 100%;
+    height: 100%;
+}
+.o-projects--information-header h2{
+    @include info-titles;
+    font-size: 2.5rem;
+}
+.t-projects--information-body,
+.o-projects--information-body__text{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.o-projects--information-body__text{
+    padding: $spaceGap 0;
+}
+.o-projects--information-body__text p{
+    @include info-text;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    margin-bottom: $spaceGap;
+}
+.t-projects--information-footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.t-projects--information-footer__cards-container{
+    margin-top: $spaceGap;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.o-information-foter__card{
+    .m-overlay{
+        img{
+            margin: $spaceBack;
+            width: 270px;
+            border-radius: 20px;
+        }
+    }
+}

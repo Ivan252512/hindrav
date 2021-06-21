@@ -1,0 +1,22 @@
+@media(min-width: $mm){
+    .o-hero--profile-picture,
+    .o-hero--description,
+    .t-social-media,
+    .t-next{
+        width: 320px;
+    }
+    .o-hero--description h2{
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    .o-hero--description span{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .a-t-next__link{
+        font-size: 1.4rem;
+    }
+    .a-social-media__link{
+        font-size: 1.4rem;
+    }
+}

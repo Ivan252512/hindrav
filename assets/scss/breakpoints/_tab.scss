@@ -1,0 +1,22 @@
+@media(min-width: $tab){
+    .o-hero--profile-picture,
+    .o-hero--description,
+    .t-social-media,
+    .t-next{
+        width: 500px;
+    }
+    .o-hero--description h2{
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+    .o-hero--description span{
+        font-size: 1.9rem;
+        line-height: 2.5rem;
+    }
+    .a-t-next__link{
+        font-size: 1.9rem;
+    }
+    .a-social-media__link{
+        font-size: 2rem;
+    }
+}

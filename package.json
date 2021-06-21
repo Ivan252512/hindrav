@@ -13,5 +13,8 @@
     "engineer"
   ],
   "author": "Hindra Estrada <hindrave@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  }
 }
