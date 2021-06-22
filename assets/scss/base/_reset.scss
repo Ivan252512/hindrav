@@ -28,7 +28,14 @@ html{
 }
 body {
 	line-height: 1;
-	overflow-y: scroll;
+}
+::-webkit-scrollbar{
+	background: black;
+	width: 4px;
+}
+::-webkit-scrollbar-thumb{
+	background: white;
+	border-radius: 4px;
 }
 ol, ul {
 	list-style: none;
