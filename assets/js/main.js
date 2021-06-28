@@ -17,10 +17,10 @@ const typed = new Typed('.typed', {
 particlesJS('particles-js', {
         "particles": {
             "number": {
-                "value": 90,
+                "value": 70,
                 "density":{
                     "enable": true,
-                    "value_area": 1300
+                    "value_area": 1000
                 }
             },
             "color": {
@@ -98,7 +98,7 @@ particlesJS('particles-js', {
             },
             "modes": {
                 "grab": {
-                    "distance": 120,
+                    "distance": 140,
                     "line_linked": {
                         "opacity": 1
                     }
