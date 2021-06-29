@@ -17,10 +17,10 @@ const typed = new Typed('.typed', {
 particlesJS('particles-js', {
     "particles": {
         "number": {
-          "value": 35,
+          "value": 50,
           "density": {
             "enable": true,
-            "value_area": 800
+            "value_area": 1000
           }
         },
         "color": {
@@ -29,11 +29,11 @@ particlesJS('particles-js', {
         "shape": {
           "type": "polygon",
           "stroke": {
-            "width": 0,
-            "color": "#000000"
+            "width": 0.8,
+            "color": "#FFFFFF"
           },
           "polygon": {
-            "nb_sides": 4
+            "nb_sides": 8
           },
           "image": {
             "src": "img/github.svg",
@@ -42,7 +42,7 @@ particlesJS('particles-js', {
           }
         },
         "opacity": {
-          "value": 0.4,
+          "value": 0.2,
           "random": false,
           "anim": {
             "enable": true,
@@ -63,9 +63,9 @@ particlesJS('particles-js', {
         },
         "line_linked": {
           "enable": true,
-          "distance": 300,
+          "distance": 150,
           "color": "#ffffff",
-          "opacity": 0.2,
+          "opacity": 0.3,
           "width": 2
         },
         "move": {
@@ -98,7 +98,7 @@ particlesJS('particles-js', {
         },
         "modes": {
           "grab": {
-            "distance": 160,
+            "distance": 200,
             "line_linked": {
               "opacity": 0.4
             }
