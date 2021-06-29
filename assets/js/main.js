@@ -15,24 +15,6 @@ const typed = new Typed('.typed', {
 });
 // Particles js
 particlesJS('particles-js', {
-<<<<<<< HEAD
-    "particles": {
-        "number": {
-            "value": 40,
-            "density": {
-                "enable": true,
-                "value_area": 1800
-            }
-        },
-        "color": {
-            "value": "#ffffff"
-        },
-        "shape": {
-            "type": "star",
-            "stroke": {
-                "width": 0,
-                "color": "#000000"
-=======
         "particles": {
             "number": {
                 "value": 70,
@@ -40,7 +22,6 @@ particlesJS('particles-js', {
                     "enable": true,
                     "value_area": 1000
                 }
->>>>>>> c84ff5b10eeb8071e5c2d482ff8e9e68f0f120c0
             },
             "polygon": {
                 "nb_sides": 5
