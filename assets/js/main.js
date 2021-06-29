@@ -15,6 +15,7 @@ const typed = new Typed('.typed', {
 });
 // Particles js
 particlesJS('particles-js', {
+<<<<<<< HEAD
     "particles": {
         "number": {
             "value": 40,
@@ -31,6 +32,15 @@ particlesJS('particles-js', {
             "stroke": {
                 "width": 0,
                 "color": "#000000"
+=======
+        "particles": {
+            "number": {
+                "value": 70,
+                "density":{
+                    "enable": true,
+                    "value_area": 1000
+                }
+>>>>>>> c84ff5b10eeb8071e5c2d482ff8e9e68f0f120c0
             },
             "polygon": {
                 "nb_sides": 5
@@ -103,31 +113,67 @@ particlesJS('particles-js', {
                     "opacity": 1
                 }
             },
-            "bubble": {
-                "distance": 800,
-                "size": 80,
-                "duration": 2,
-                "opacity": 0.8,
-                "speed": 3
+            "line_linked": {
+                "enable": true,
+                "distance": 200,
+                "color": "#ffffff",
+                "opacity": 0.4,
+                "width": 2
             },
-            "repulse": {
-                "distance": 100,
-                "duration": 0.4
-            },
-            "push": {
-                "particles_nb": 4
-            },
-            "remove": {
-                "particles_nb": 2
+            "move": {
+                "enable": true,
+                "speed": 4,
+                "direction": "none",
+                "random": false,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false,
+                "attract": {
+                    "enable": false,
+                    "rotateX": 600,
+                    "rotateY": 1200
+                }
             }
-        }
-    },
-    "retina_detect": true
-});
-
-// const arrowDown = document.querySelector(".a-t-next__link");
-// arrowDown.addEventListener('click', e => {
-//     history.pushState({
-//         page: 'about',
-//     }, 'about', '/about');
-// })
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": {
+                    "enable": true,
+                    "mode": "grab"
+                },
+                "onclick": {
+                    "enable": true,
+                    "mode": "push"
+                },
+                "resize": true
+            },
+            "modes": {
+                "grab": {
+                    "distance": 140,
+                    "line_linked": {
+                        "opacity": 1
+                    }
+                },
+                "bubble": {
+                    "distance": 800,
+                    "size": 80,
+                    "duration": 2,
+                    "opacity": 0.8,
+                    "speed": 3
+                },
+                "repulse": {
+                    "distance": 100,
+                    "duration": 0.4
+                },
+                "push": {
+                    "particles_nb": 4
+                },
+                "remove": {
+                    "particles_nb": 2
+                }
+            }
+        },
+        "retina_detect": true
+    }
+);
